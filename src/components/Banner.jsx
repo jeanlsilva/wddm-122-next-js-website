@@ -16,8 +16,8 @@ export default function Banner() {
             >
                 <Flex w={minWidth1024 ? 1160 : '100%'} justify={minWidth1024 ? "space-between" : "center"} align="center">
                     <Box w={minWidth1160 ? 1160 : '80%'} color="gray.50">
-                        <Text as="h1" fontSize={minWidth425 ? "4xl" : "3xl"} maxWidth={426}>5 Continentes,<br /> infinitas possibilidades.</Text>
-                        <Text as="h2" fontSize={minWidth425 ? "lg" : "md"} maxWidth={524}>Chegou a hora de tirar do papel a viagem que você sempre sonhou.</Text>
+                        <Text as="h1" fontSize={minWidth425 ? "4xl" : "3xl"} maxWidth={426}>5 Continents,<br /> endless possibilities.</Text>
+                        <Text as="h2" fontSize={minWidth425 ? "lg" : "md"} maxWidth={524}>It&apos;s time to take the trip you&apos;ve always dreamed off the scratch.</Text>
                     </Box>
                     <Box>
                         {minWidth1024 && (

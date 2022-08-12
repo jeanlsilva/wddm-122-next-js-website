@@ -3,24 +3,9 @@ import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Flex, Heading, Text, Box, useMediaQuery } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-interface Continent {
-    id: number;
-    title: string;
-    subtitle: string;
-    description: string;
-    countries: number;
-    languages: number;
-    cidades100: string[];
-    image: string;
-  }
-
-interface ContinentsSlideProps {
-    continents: Continent[];
-}
-
 SwiperCore.use([Navigation, Pagination]);
 
-export function ContinentsSlide({ continents }: ContinentsSlideProps) {
+export function ContinentsSlide({ continents }) {
     const [minWidth1240] = useMediaQuery("(min-width: 1240px)");
     const [maxWidth375] = useMediaQuery("(max-width: 375px)");
 
